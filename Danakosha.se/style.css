@@ -1,0 +1,323 @@
+/* 
+START: 19/2 -21
+
+Light shades: #e9e2d7
+Light accent: #aa7754
+Main: #8b0000
+Dark accent: #84658c
+Dark shades: #131319
+*/
+/* INDEX*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #131319;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: darkred;
+  /* background-image: url(/Images/noisy-texture-100x100-o9-d20-c-8b0000-t0.png); */
+}
+
+.lazy-load {
+  filter: blur(20px);
+}
+
+p {
+  line-height: 130%;
+}
+
+header {
+  width: 100vw;
+  height: 17.5vh;
+  background-color: white;
+}
+
+header img {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#bars-div {
+  /* position: relative;
+  right: -80%;
+  top: -75%; */
+
+  position: absolute;
+  right: 5vw;
+  top: 5vh;
+}
+
+header i {
+  position: relative;
+  color: darkred;
+  font-size: 4rem;
+}
+
+.desktop-menu {
+  display: none;
+}
+
+#menu {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+#menu a {
+  display: block;
+  text-decoration: none;
+  color: #e9e2d7;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 2px solid #b57c43;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0 rgb(90, 0, 0);
+}
+
+main {
+  width: 100vw;
+  height: 62.5vh;
+  margin: 5vw auto 0 auto;
+  padding: 5%;
+  background-color: #e9e2d7;
+  overflow: scroll;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 100%;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  /* text-shadow: 2px 3px 3px #84658c; */
+}
+
+.fa-gem {
+  color: #131319;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+h2 {
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-weight: lighter;
+  font-size: 150%;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #aa7754;
+}
+
+i {
+  color: white;
+}
+
+#wheel-img {
+  width: 5rem;
+  float: right;
+}
+
+.pres-tdr {
+  position: relative;
+}
+
+.pres-tdr img {
+  position: relative;
+  width: 200px;
+  height: auto;
+  left: 50%;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  transform: translate(-50%);
+  /* box-shadow: 10px 5px 15px #13131970; */
+}
+
+.button-news {
+  position: relative;
+  padding: 1rem 2rem;
+  width: 70%;
+  height: auto;
+  font-weight: bold;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  color: #e9e2d7;
+  background-color: #84658c;
+  border: 2px solid #4d3a52;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 5px 0 #4d3a52;
+  letter-spacing: 0.1rem;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100vw;
+  height: 7vh;
+  background-color: darkred;
+}
+#arrow {
+  position: relative;
+  margin: 0 auto;
+  width: 4rem;
+  height: 2rem;
+  text-align: center;
+  background-color: darkred;
+  /* border-top: 1rem solid darkred;
+  border-radius: 50%; */
+}
+
+.fa-chevron-up {
+  position: relative;
+  top: 0rem;
+  color: white;
+  font-size: 2rem;
+  background-color: darkred;
+}
+
+.footer-grid {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 1.7fr 1fr;
+  grid-template-rows: auto;
+  align-items: end;
+}
+
+.newsletter {
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 0rem 0rem 0rem 0.5rem;
+}
+
+.newsletter form {
+  width: fit-content;
+  height: fit-content;
+}
+
+.newsletter input {
+  padding: 0.5rem;
+  border: 1px solid #131319;
+  border-radius: 1rem;
+}
+.newsletter h3 {
+  color: #e9e2d7;
+  margin-left: 0.3rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.3rem;
+}
+
+.social {
+  position: relative;
+  grid-column-start: 2;
+  width: fit-content;
+  height: fit-content;
+  /* margin: 0 auto; */
+  justify-self: end;
+}
+
+.fa-facebook,
+.fa-envelope {
+  position: relative;
+  bottom: 0;
+  font-size: 3rem;
+  color: #e9e2d7;
+  margin-right: 0.5rem;
+}
+
+.fa-facebook {
+  margin-right: 1rem;
+}
+
+/* .fa-envelope {
+  float: right;
+} */
+
+.hidden {
+  display: none;
+}
+
+/* LÄRARE */
+
+#bio1 {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+#bio2 {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  max-height: auto;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 1rem;
+}
+
+#bio3 {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  max-height: auto;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 1rem;
+}
+
+iframe {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 1rem;
+}
+
+/* CENTER */
+
+#finlink {
+  text-align: center;
+}
+
+#center1 {
+  position: relative;
+  max-width: 100%;
+  max-height: auto;
+  margin-bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#danakosha-web {
+  text-transform: none;
+}
