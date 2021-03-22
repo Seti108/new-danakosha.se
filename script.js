@@ -33,7 +33,7 @@ const hideFooter = function () {
   if (width <= 1200) {
     footerGrid.style.display = "none";
     footer.style.height = "7%";
-    main.style.height = "75.5%";
+    main.style.height = "70.5%";
   }
 };
 
@@ -45,7 +45,7 @@ const showFooter = function () {
   if (width <= 1200) {
     footerGrid.style.display = "grid";
     footer.style.height = "20%";
-    main.style.height = "62.5%";
+    main.style.height = "56.5%";
   }
 };
 
