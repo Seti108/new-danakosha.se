@@ -39,8 +39,8 @@ p {
 }
 
 header {
-  width: 100vw;
-  height: 17.5vh;
+  width: 100%;
+  height: 17.5%;
   background-color: white;
 }
 
@@ -90,8 +90,8 @@ header i {
 }
 
 main {
-  width: 100vw;
-  height: 62.5vh;
+  width: 100%;
+  height: 62.5%;
   margin: 5vw auto 0 auto;
   padding: 5%;
   background-color: #e9e2d7;
@@ -185,8 +185,8 @@ i {
 footer {
   position: relative;
   bottom: 0;
-  width: 100vw;
-  height: 7vh;
+  width: 100%;
+  height: 7%;
   background-color: darkred;
 }
 #arrow {
@@ -210,7 +210,7 @@ footer {
 
 .footer-grid {
   display: grid;
-  width: 100vw;
+  width: 100%;
   grid-template-columns: 1.7fr 1fr;
   grid-template-rows: auto;
   align-items: end;
