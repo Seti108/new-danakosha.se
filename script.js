@@ -22,8 +22,8 @@ main.addEventListener(
   function () {
     if (width <= 1200) {
       footerGrid.style.display = "none";
-      footer.style.height = "5vh";
-      main.style.height = "70vh";
+      footer.style.height = "5%";
+      main.style.height = "70%";
     }
   },
   { passive: true }
@@ -32,8 +32,8 @@ main.addEventListener(
 const hideFooter = function () {
   if (width <= 1200) {
     footerGrid.style.display = "none";
-    footer.style.height = "5vh";
-    main.style.height = "70vh";
+    footer.style.height = "5%";
+    main.style.height = "70%";
   }
 };
 
@@ -44,8 +44,8 @@ const hideFooter = function () {
 const showFooter = function () {
   if (width <= 1200) {
     footerGrid.style.display = "grid";
-    footer.style.height = "15vh";
-    main.style.height = "60vh";
+    footer.style.height = "15%";
+    main.style.height = "60%";
   }
 };
 
