@@ -102,6 +102,7 @@ main {
   padding: 5%;
   background-color: #e9e2d7;
   overflow: scroll;
+  box-sizing: border-box;
 }
 
 h1 {
