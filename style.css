@@ -103,7 +103,7 @@ main {
   background-color: #e9e2d7;
   overflow: scroll;
   box-sizing: border-box;
-  border-top: 5% solid darkred;
+  border-top: 5px solid darkred;
 }
 
 h1 {
