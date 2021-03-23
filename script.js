@@ -22,8 +22,8 @@ main.addEventListener(
   function () {
     if (width <= 1200) {
       footerGrid.style.display = "none";
-      footer.style.height = "7%";
-      main.style.height = "75.5%";
+      footer.style.height = "5vh";
+      main.style.height = "70vh";
     }
   },
   { passive: true }
@@ -32,8 +32,8 @@ main.addEventListener(
 const hideFooter = function () {
   if (width <= 1200) {
     footerGrid.style.display = "none";
-    footer.style.height = "7%";
-    main.style.height = "70.5%";
+    footer.style.height = "5vh";
+    main.style.height = "70vh";
   }
 };
 
@@ -44,8 +44,8 @@ const hideFooter = function () {
 const showFooter = function () {
   if (width <= 1200) {
     footerGrid.style.display = "grid";
-    footer.style.height = "20%";
-    main.style.height = "56.5%";
+    footer.style.height = "15vh";
+    main.style.height = "60vh";
   }
 };
 
@@ -73,3 +73,5 @@ const imgObserver = new IntersectionObserver(loadImg, {
 });
 
 imgTargets.forEach((img) => imgObserver.observe(img));
+
+console.log(window.innerHeight, window.innerWidth);
