@@ -1,6 +1,5 @@
 /* 
 START: 19/2 -21
-
 Light shades: #e9e2d7
 Light accent: #aa7754
 Main: #8b0000
@@ -12,20 +11,26 @@ Dark shades: #131319
   padding: 0;
   margin: 0;
   border: 0;
-  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 html {
   color: #131319;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
+  box-sizing: border-box;
 }
 
 body {
-  width: 100%;
-  height: 100%;
+  min-width: 100%;
+  height: 100vh;
   background-color: darkred;
   /* background-image: url(/Images/noisy-texture-100x100-o9-d20-c-8b0000-t0.png); */
 }
@@ -39,8 +44,8 @@ p {
 }
 
 header {
-  width: 100%;
-  height: 17.5%;
+  width: 100vw;
+  height: 20vh;
   background-color: white;
 }
 
@@ -90,9 +95,9 @@ header i {
 }
 
 main {
-  width: 100%;
-  height: 56.5%;
-  margin: 5% auto 0 auto;
+  width: 100vw;
+  height: 60vh;
+  margin: 5vh auto 0 auto;
   padding: 5%;
   background-color: #e9e2d7;
   overflow: scroll;
@@ -185,8 +190,8 @@ i {
 footer {
   position: relative;
   bottom: 0;
-  width: 100%;
-  height: 7%;
+  width: 100vw;
+  height: 15vh;
   background-color: darkred;
 }
 #arrow {
