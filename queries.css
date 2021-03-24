@@ -102,9 +102,13 @@
     padding: 5% 7%;
   }
 
-  .fas {
+  /* .fas {
     color: white;
     font-size: 1rem;
+  } */
+
+  .fa-times {
+    color: black;
   }
 
   h1 {

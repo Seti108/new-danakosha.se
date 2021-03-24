@@ -1,5 +1,6 @@
 <html>
   <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="/script.js" defer></script>
     <script src="/redirect.js"></script>
@@ -15,7 +16,9 @@
   </head>
   <body>
     <header>
-      <img src="/Images/logo.png" alt="logo" />
+      <a href="./EN/index-en.html">
+        <img src="Images/en-flag.svg" id="language-img" alt="language-english"></a>
+      <img src="/Images/logo.png" alt="logo" id="logo" />
       <div id="bars-div"><i class="fas fa-bars"></i></div>
     </header>
     <div class="desktop-menu">
@@ -180,9 +183,13 @@
         </div>
         <div class="social">
           <a href="https://www.facebook.com/Danakosha-Sweden-258268921268717"<i class="fab fa-facebook"></i></a>
-          <a href="mailto:info@danakosha.se?subject=Kontakt Danakosha Sverige"><i class="far fa-envelope"></i></a>
+          <i class="far fa-envelope"></i>
         </div>
       </div>
     </footer>
+    <div class="mail-popup hidden">
+      <p>info@danakosha.se</p>
+      <i class="fas fa-times"></i>
+    </div>
   </body>
 </html>
