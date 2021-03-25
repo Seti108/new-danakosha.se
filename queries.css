@@ -4,12 +4,19 @@
   }
 
   .newsletter input {
-    padding: 0.2rem;
+    padding: 0.1rem;
     border: 1px solid #131319;
     border-radius: 1rem;
   }
+
   header i {
     font-size: 3rem;
+  }
+
+  .fa-facebook,
+  .fa-envelope {
+    font-size: 2rem;
+    margin-right: 1rem;
   }
 }
 
@@ -109,6 +116,14 @@
 
   .fa-times {
     color: black;
+    font-size: 2rem;
+  }
+  .mail-popup p {
+    font-size: 2rem;
+    display: inline-block;
+    margin-bottom: 0rem;
+    text-align: center;
+    margin-right: 1rem;
   }
 
   h1 {

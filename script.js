@@ -78,8 +78,6 @@ const imgObserver = new IntersectionObserver(loadImg, {
 
 imgTargets.forEach((img) => imgObserver.observe(img));
 
-console.log(window.innerHeight, window.innerWidth);
-
 // Show the mail adress on click
 mail.addEventListener("click", function () {
   mailPopup.classList.toggle("hidden");

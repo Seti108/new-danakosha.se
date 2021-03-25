@@ -52,11 +52,14 @@ header {
 
 #language-img {
   position: absolute;
-  width: 4rem;
+  display: inline-block;
+  width: 2rem;
   height: auto;
-  top: 7vh;
-  left: 6vw;
+  top: 5px;
+  left: 5px;
   border: 1px solid darkred;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px #27272eb0;
 }
 
 #logo {
@@ -341,11 +344,11 @@ iframe {
 }
 
 .mail-popup {
-  position: absolute;
+  position: relative;
   width: fit-content;
-  bottom: 50px;
-  left: 50%;
-  padding: 2rem;
+  bottom: 30%;
+  left: 60%;
+  padding: 1rem;
   transform: translate(-50%);
   background-color: #e9e2d7;
   border: 1px solid #131319;
@@ -362,6 +365,7 @@ iframe {
 }
 .fa-times {
   position: relative;
+  display: inline-block;
   font-size: 1rem;
   color: black;
 }
